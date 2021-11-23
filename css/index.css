@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+/* production of project */
+.navbar{
+  background-color: #fff;
+}
+.navbar-toggler-icon{
+  color: #2d2dd0;
+  outline: none;
+  font-size: 25px;
+}
+.navbar-brand{
+  margin-left: 20px;
+}
+.navbar-brand > img{
+  float:left;
+}
+.navbar-brand > p{
+  float: right;
+  margin-left: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.navbar-brand > p > span{
+  color: #883049;
+}
+.navbar-nav .nav-link{
+  color: #883049;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-nav .dropdown-menu{
+  background-color: #883049;
+}
+.dropdown-item{
+  color: #fff;
+  font-weight: bold;
+}
+/* production of project */
+/* more info */
+.prod{
+  background-color: red;
+  height: 685px;
+}
+.prod .back{
+  background-image: url(../images/plants.jpg);
+  background-size: cover;
+  height: 100%;
+}
+.prod .back .cover{
+  background-color: #8830499e;
+  height: 100%;
+  width: 50%;
+}
+.prod .back .cover .data{
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.prod .back .cover .data > h1{
+  margin-top: 10%;
+  color: #fff;
+}
+.prod .back .cover .data > p{
+  color: #fff;
+  font-family: Andale Mono, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.prod .back .cover .data > a{
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.prod .back .cover .data > a:hover{
+  background-color: #fff;
+  color: #883049;
+  font-weight: bold;
+}
+.more-info{
+  padding: 220px 0px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.more-info .content{
+  width: 80%;
+  margin: auto;
+}
+.more-info .container-fluid .row .show{
+  text-align: center;
+}
+/* more info */
+/* sign in */
+.sign-in{
+  background-image: url(../images/img6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+}
+.sign-up{
+  padding: 50px 0px;
+  background-color: #fff;
+}
+.sign-in .form-sign-in{
+  width: 47%;
+  margin: auto;
+  background-color: #8830498c;
+  padding: 30px;
+  border-radius: 20px;
+}
+.sign-up .form-sign-up{
+  width: 25%;
+  margin: auto;
+}
+.sign-in .form-sign-in > form button ,
+.sign-up .form-sign-up > form button{
+  background-color: #883049;
+  border: 1px solid #883049;
+}
+.result{
+     width: 50%;
+     margin: auto;
+}
+.result ul{
+    list-style: none;
+    text-align: center;
+}
+.result ul li{
+    background-color: red;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* sign in */
+/* calculate calories */
+.calc{
+  background-image: url(../images/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.calc .form-calc{
+  width: 25%;
+  margin: auto;
+  background-color: #8830498c;
+  padding: 30px;
+  border-radius: 20px;
+}
+.calc .form-calc button ,
+.sign-up .form-sign-up > form button{
+  background-color: #883049;
+  border: 1px solid #883049;
+}
+.calc .form-calc > .form-group label{
+  color: #fff;
+  font-weight: bold;
+}
+/* calculate calories */

@@ -1,0 +1,246 @@
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/font-awesome.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="icon" href="images/logo.png"/>
+    </head>
+    <body>
+        <!-- head section  -->
+      <div class="head">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="/">
+             <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+             <p>Plants <span>Based</span> Diet</p>
+           </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"> <i class="fa fa-arrow-down" aria-hidden="true"></i> </span>
+           </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Settings
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#signIn">Sign In</a>
+                      <a class="dropdown-item" href="#signUp">Sign Up</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#calc">Calculate Your Calories</a>
+                    </div>
+                  </li>
+                </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- head section -->
+      <!-- production of project -->
+      <div class="prod">
+        <div class="back">
+          <div class="cover">
+            <br><br><br><br><br><br>
+            <div class="data text-center">
+              <br>
+              <h1>Plants Based Diet</h1>
+              <br>
+              <p>This site helps you to find best plans based on your calories</p>
+              <br>
+              <a href="#moreInfo">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- production of project -->
+      <!-- more info -->
+      <div class="more-info" id="moreInfo">
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="show col-lg-4 col-md-4 col-sm12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/img1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body" style="padding:26px;">
+                    <h5 class="card-title" style="color:#883049;">Vegetables</h5>
+                    <p class="card-text">Vegetables are a great source of vitamins and minerals, You get to enjoy a variety of flavors and textures</p>
+                  </div>
+                </div><br>
+              </div>
+              <div class="show col-lg-4 col-md-4 col-sm12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/img5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color:#883049;">Fruits</h5>
+                    <p class="card-text">Fruits is Lots and lots of fiber , They’re low-calorie and low-fat , Protect against cancer and other diseases</p>
+                  </div>
+                </div><br>
+              </div>
+              <div class="show col-lg-4 col-md-4 col-sm12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/img4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body" style="padding:25px;">
+                    <h5 class="card-title" style="color:#883049;">Sports</h5>
+                    <p class="card-text">Playing sports helps reduce body fat or controls your body weight, Sports allow you will gain the satisfaction of developing fitness</p>
+                  </div>
+                </div><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- more info -->
+      <!-- sign in -->
+      <div class="sign-in" id="signIn">
+        <br><br><br><br><br><br>
+        <div class="form-sign-in">
+            <div class="result text-center" id="errorsLogin">
+
+            </div>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Username" id="usernameLogin" name="usernameLogin">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter Password" id="passwordLogin" name="passwordLogin">
+            </div>
+            <button type="submit" class="btn btn-primary form-control" id="loginFun">Login</button>
+          </form>
+        </div>
+      </div>
+      <!-- sign in -->
+      <!-- sign up -->
+      <br>
+      <div class="result text-center" id="errors">
+
+      </div>
+      <div class="sign-up" id="signUp">
+        <div class="form-sign-up">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Fullname" id="fullname" name="fullname">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Username" id="username" name="username">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter Password" id="password" name="password">
+            </div>
+            <div class="form-group">
+              <label>Government</label>
+              <select class="form-control" id="government" name="government">
+                <option>New Valley</option>
+                <option>Matruh</option>
+                <option>Red Sea</option>
+                <option>Giza</option>
+                <option>South Sinai</option>
+                <option>North Sinai</option>
+                <option>Suez</option>
+                <option>Beheira</option>
+                <option>Helwan</option>
+                <option>Sharqia</option>
+                <option>Dakahlia</option>
+                <option>Kafr el-Sheikh</option>
+                <option>Alexandria</option>
+                <option>Monufia</option>
+                <option>Minya</option>
+                <option>Gharbia</option>
+                <option>Faiyum</option>
+                <option>Qena</option>
+                <option>Asyut</option>
+                <option>Sohag</option>
+                <option>Ismailia</option>
+                <option>Beni Suef</option>
+                <option>Qalyubia</option>
+                <option>Aswan</option>
+                <option>Damietta</option>
+                <option>Cairo</option>
+                <option>Port Said</option>
+                <option>Luxor</option>
+                <option>6th of October</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Weight</label>
+              <select class="form-control" id="weight" name="weight">
+                  
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Height</label>
+              <select class="form-control" id="height" name="height">
+                
+              </select>
+            </div>
+              <div class="form-group">
+                  <label>Age</label>
+                  <select class="form-control" id="age" name="age">
+                      
+                  </select>
+              </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <select class="form-control" id="gender" name="gender">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary form-control" id="signUpFun">Sign Up</button>
+          </form>
+        </div>
+      </div>
+      <!-- sign up -->
+      <!-- calculate Calories -->
+      <div class="calc" id="calc">
+        <br><br><br><br><br><br>
+        <div class="form-calc">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Weight</label>
+              <select class="form-control" id="WeightCalc">
+                
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Height</label>
+              <select class="form-control" id="HeightCalc">
+                
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Gender</label>
+              <select class="form-control" id="GenderCalc">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Age</label>
+              <select class="form-control" id="AgeCalc">
+                
+              </select>
+            </div>
+            <button class="btn btn-primary form-control" onclick="calcCalories()">Calculate</button>
+            <div class="form-group">
+              <br>
+              <input type="text" class="form-control" disabled id="resultCalc">
+            </div>
+        </div>
+      </div>
+        
+        <!-- Ending Of The Body Of My Design-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
